@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+	  <link rel="stylesheet" href="styles.css" >
+	
+	</head>
+	<body>
+	<div id="header">
+			<div id="logo">
+				CodePlayer
+			</div>
+			<div id="button_container">
+				<div class="togglebutton active" id="html">HTML</div>
+				<div class="togglebutton" id="css">CSS</div>
+				<div class="togglebutton" id="javascript">JavaScript</div>
+				<div class="togglebutton active" id="output">Output</div>
+			</div>
+	</div>
+	<div id="bodycontainer">
+     <textarea id="htmlpanel" class="panel"><p id="para">html</p></textarea>
+	 <textarea id="csspanel" class="panel hidden">p{color:red;}</textarea>
+	 <textarea id="javascriptpanel" class="panel hidden">document.getElementById("para").innerHTML="fuck it" </textarea>
+	 <iframe id="outputpanel" class="panel"></iframe>
+	</div>	
+		
+	<script src ="jQuery.js">
+	</script>
+   </body>
+</html>
